@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+#root, #chat-app {
+  height: 100%;
+  width: 100%;
+}
+
+#username {
+  display: flex;
+  align-items: center;
+}
+
+#username-logged-in {
+  font-weight: bold;
+}
+
+#username-login, #send-message-btn {
+  margin-left: 10px;
+}
+
+#username-title {
+  margin-right: 10px;
+}
+
+#channels {
+  float: left;
+  height: 100%;
+  width: 10%;
+}
+
+.chat-bubble {
+  display: flex;
+}
+
+.chat-bubble-msg-username {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.channel-btn {
+  display: block !important;
+}
